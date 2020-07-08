@@ -1,0 +1,16 @@
+{
+    "short_name": "Mytest",
+     "name": "MYTEST",
+     "icons": [
+       {
+         "src": "image/helo.png",
+         "type": "image/png",
+         "sizes": "192x192"
+       }
+     ],
+     "start_url": "index.html",
+     "background_color": "#FFEF5E",
+     "display": "standalone",
+     "scope": ".",
+     "theme_color": "#FFEF5E"
+   }

@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title> Test Project</title>
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+        <h1>Hello dear friends this is Prograssive web app example(PWA)</h1>
+        <a href="aboutUS.html">About US</a>
+    </body>
+    <script>
+        if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+        console.log('Service Worker Registered');
+    });
+    
+    } else console.log('Your browser does not support the Service-Worker!');
+        </script>
+</html>
